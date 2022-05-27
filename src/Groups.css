@@ -1,0 +1,12 @@
+.groups {
+
+}
+
+.groups .section {
+    padding: 10px;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}

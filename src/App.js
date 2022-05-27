@@ -1,4 +1,5 @@
 import Auth from './OAuthLink';
+import Groups from './Groups';
 import useCurrentUri from './useCurrentUri';
 import useWebexOAuth from './useWebexOAuth';
 
@@ -11,23 +12,28 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        { 
+        <h1>Webex Groups</h1>
+        <h3>A GUI Interface for the <a href="https://developer.webex.com/docs/api/v1/groups">Webex Groups API</a></h3>
+      </header>
+      <div className='Main'>
+      { 
           webexToken ? 
           (
-            <div>
-              Congratulations, you are logged in to Webex. User's API token is available in the "webexToken" variable.
-            </div>
+            <Groups token={webexToken} />
           ) : 
           (
-            <Auth 
-              clientID={process.env.REACT_APP_WEBEX_CLIENT_ID} 
-              loginText="Login to Webex"
-              redirectURI={redirectURI}
-              webexAPIBaseURL={process.env.REACT_APP_WEBEX_BASE_URL}
-            />
+            <div className='Login'>
+              {"To use this tool, login with an organization admin user: "}
+              <Auth 
+                clientID={process.env.REACT_APP_WEBEX_CLIENT_ID} 
+                loginText="Login to Webex"
+                redirectURI={redirectURI}
+                webexAPIBaseURL={process.env.REACT_APP_WEBEX_BASE_URL}
+              />
+            </div>
           )
         }
-      </header>
+      </div>
     </div>
   );
 }

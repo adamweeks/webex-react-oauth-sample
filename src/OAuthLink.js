@@ -6,7 +6,7 @@ function OAuthLink({clientID, loginText, redirectURI, webexAPIBaseURL}) {
   return (
     <>
       <a
-      href={`${webexAPIBaseURL}?client_id=${clientID}&response_type=token&redirect_uri=${redirectURI}&scope=spark%3Aall%20spark%3Akms`}
+      href={`${webexAPIBaseURL}?client_id=${clientID}&response_type=token&redirect_uri=${redirectURI}&scope=identity%3Agroups_rw%20identity%3Agroups_read`}
       >
         {loginText}
       </a>
