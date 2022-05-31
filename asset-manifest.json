@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/webex-react-oauth-sample/static/css/main.1b8d8154.chunk.css",
-    "main.js": "/webex-react-oauth-sample/static/js/main.d3667819.chunk.js",
-    "main.js.map": "/webex-react-oauth-sample/static/js/main.d3667819.chunk.js.map",
-    "runtime-main.js": "/webex-react-oauth-sample/static/js/runtime-main.2e98af6a.js",
-    "runtime-main.js.map": "/webex-react-oauth-sample/static/js/runtime-main.2e98af6a.js.map",
-    "static/js/2.d468694a.chunk.js": "/webex-react-oauth-sample/static/js/2.d468694a.chunk.js",
-    "static/js/2.d468694a.chunk.js.map": "/webex-react-oauth-sample/static/js/2.d468694a.chunk.js.map",
-    "static/js/3.bbd72e67.chunk.js": "/webex-react-oauth-sample/static/js/3.bbd72e67.chunk.js",
-    "static/js/3.bbd72e67.chunk.js.map": "/webex-react-oauth-sample/static/js/3.bbd72e67.chunk.js.map",
+    "main.css": "/webex-react-oauth-sample/static/css/main.4cac3567.chunk.css",
+    "main.js": "/webex-react-oauth-sample/static/js/main.a69bdb5c.chunk.js",
+    "main.js.map": "/webex-react-oauth-sample/static/js/main.a69bdb5c.chunk.js.map",
+    "runtime-main.js": "/webex-react-oauth-sample/static/js/runtime-main.97976367.js",
+    "runtime-main.js.map": "/webex-react-oauth-sample/static/js/runtime-main.97976367.js.map",
+    "static/js/2.69bb2f67.chunk.js": "/webex-react-oauth-sample/static/js/2.69bb2f67.chunk.js",
+    "static/js/2.69bb2f67.chunk.js.map": "/webex-react-oauth-sample/static/js/2.69bb2f67.chunk.js.map",
+    "static/js/3.b8989d81.chunk.js": "/webex-react-oauth-sample/static/js/3.b8989d81.chunk.js",
+    "static/js/3.b8989d81.chunk.js.map": "/webex-react-oauth-sample/static/js/3.b8989d81.chunk.js.map",
     "index.html": "/webex-react-oauth-sample/index.html",
-    "static/css/main.1b8d8154.chunk.css.map": "/webex-react-oauth-sample/static/css/main.1b8d8154.chunk.css.map",
-    "static/js/2.d468694a.chunk.js.LICENSE.txt": "/webex-react-oauth-sample/static/js/2.d468694a.chunk.js.LICENSE.txt"
+    "static/css/main.4cac3567.chunk.css.map": "/webex-react-oauth-sample/static/css/main.4cac3567.chunk.css.map",
+    "static/js/2.69bb2f67.chunk.js.LICENSE.txt": "/webex-react-oauth-sample/static/js/2.69bb2f67.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2e98af6a.js",
-    "static/js/2.d468694a.chunk.js",
-    "static/css/main.1b8d8154.chunk.css",
-    "static/js/main.d3667819.chunk.js"
+    "static/js/runtime-main.97976367.js",
+    "static/js/2.69bb2f67.chunk.js",
+    "static/css/main.4cac3567.chunk.css",
+    "static/js/main.a69bdb5c.chunk.js"
   ]
 }
